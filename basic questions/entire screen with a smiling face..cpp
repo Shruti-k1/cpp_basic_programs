@@ -4,8 +4,11 @@
 using namespace std;
 
 int main()
-{ char a='B';
- cout <<int(a);
-
+{ int  sml=1,i;
+ char ch=sml;
+ for(i=0; i<=5000; i++)
+ {
+  cout<<ch<<" ";
+ }
     return 0;
 }
